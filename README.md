@@ -44,7 +44,7 @@ def read_csv(csv_path):
             XY = npXYs[npXYs[:, 0] == j][:, 1:]
             XYs.append(XY)
         path_XYs.append(XYs)
-    return path_XYs
+    return path_XYs```
 
 ## Usage
 
