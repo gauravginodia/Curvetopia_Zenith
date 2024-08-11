@@ -31,7 +31,8 @@ This project is part of the Curvetopia initiative, which aims to identify, regul
 ## Code Implementation
 
 ### 1. Loading CSV Data
-# ```python
+# 
+```
 import numpy as np
 
 def read_csv(csv_path):
@@ -44,7 +45,8 @@ def read_csv(csv_path):
             XY = npXYs[npXYs[:, 0] == j][:, 1:]
             XYs.append(XY)
         path_XYs.append(XYs)
-    return path_XYs 
+    return path_XYs
+```
 
 ## Usage
 
